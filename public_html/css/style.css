@@ -1,5 +1,6 @@
 body {
     background-color: chocolate;
+    /*--This changes the font for the entire website to Helvetica.*/
     font-family: Helvetica;
 }
 
@@ -9,6 +10,7 @@ nav a {
 }
 
 #current-link {
+    /*--This makes the current link for the page you are on have no underline*/
     text-decoration: none;
 }
 
@@ -23,6 +25,8 @@ img {
 }
 
 h1 {
+    /*This code creates a border for the top of every page. 
+    There is also padding which centers the box.*/
      border: 2px groove orangered;
      padding-top: 20px;
      padding-bottom: 20px;
